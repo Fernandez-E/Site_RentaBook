@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="estilo_geral.css" rel="stylesheet">
+    <link href="estilo_footer.css" rel="stylesheet">
+    <link href="estilo_login.css" rel="stylesheet">
+
+</head>
+
+<body>
+    <header>
+        <div class="background" style="background-color:#001249 ;">
+            <a href="index.html"><img src="../RentaBook/imgs/Logo.png" class="menu"></a>
+            <input type="text" placeholder="O que está procurando?" class="menu form" id="pesquisa">
+            <input type="submit" value="Pesquisar" class="menu form" id="botao">
+            <a href="login.html" id="login">Login / Cadastro</a>
+            <div class="submenu">
+                <a href="index.html">Início</a>
+                <a href="biblioteca.html">Biblioteca</a>
+                <a href="oquee.html">O que é o RentaBook</a>
+            </div>
+        </div>
+    </header>
+
+
+    <div class="fluxo">
+        <a href="index.html">
+            <p>Início</p>
+        </a>
+        <p> > </p>
+        <a href="login.html">
+            <p>Login</p>
+        </a>
+        <p> > </p>
+    </div>
+
+    <form>
+        <fieldset class="arealogin">
+            <legend class="container-login">Login</legend>
+            <div>
+                <h3 class="login">Email ou Login:</h3>
+                <input type="email" placeholder="example@example.com" required>
+                <h3 class="login">Senha: </h3>
+                <input type="password" placeholder="Password" required>
+                <input type="button" class="send" value="Login">
+                <a id="cadastro" href="cadastro.html">Ainda sem conta? Clique aqui e cadastre-se!</a>
+            </div>
+        </fieldset>
+    </form>
+
+    <div class="complete"></div>
+    <footer>
+        <div id="copy">
+            <p>&copy Rent a Book</p>
+            <div id="alugue">
+                <p>ALUGUE LIVROS, DIFUNDA SABERES, GERE RENDA</p>
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+
+</html>

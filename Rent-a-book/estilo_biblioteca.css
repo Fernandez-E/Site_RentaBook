@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=BenchNine:wght@300&display=swap');
+.biblio {
+    height: 100%;
+    width: 80%;
+    margin: 0 auto;
+    border: 3px #ffd31f solid;
+    background: rgb(255, 255, 255);
+    background: linear-gradient(180deg, rgb(255, 255, 255) 0%, rgb(254, 255, 177) 100%);
+    transition: all 0.8s;
+}
+
+.biblio:hover {
+    border: 3px #001249 solid;
+}
+
+.biblio legend {
+    font-family: 'Righteous', cursive;
+    font-size: 30px;
+    padding: 10px 25px;
+    margin-left: 20px;
+    color: #001249;
+}
+
+fieldset table {
+    margin: 0 auto;
+}
+
+fieldset img {
+    height: 210px;
+    width: 145px;
+    border: solid 2px #001249;
+}
+
+fieldset td {
+    padding: 15px 80px;
+    border-collapse: separate;
+    border: 1px solid #dddddd;
+}
+
+fieldset a {
+    text-decoration: none;
+}
+
+fieldset figcaption {
+    font-family: 'BenchNine', sans-serif;
+    font-size: 19px;
+    text-decoration: none;
+    color: black;
+    text-align: center;
+}

@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=BenchNine:wght@300&display=swap');
+#box-text {
+    width: 70%;
+    margin: 0 auto;
+}
+
+#box-text legend {
+    font-size: 36px;
+    font-family: 'Staatliches', cursive;
+    padding: 0 20px;
+    font-weight: 100;
+    margin-left: 20px;
+    transition: all 0.1s;
+    cursor: default;
+    color: #001249;
+}
+
+.text {
+    margin-top: 5px;
+    font-family: 'BenchNine', sans-serif;
+    font-size: 28px;
+    text-align: justify;
+    margin-bottom: 20px;
+    text-indent: 80px;
+    padding: 0px 20px;
+    cursor: default;
+}
+
+fieldset {
+    margin: 25px 0;
+    border: 2px solid #ffd31f;
+    transition: all 0.8s;
+    background: rgb(255, 255, 255);
+    background: linear-gradient(180deg, rgb(255, 255, 255) 0%, rgb(254, 255, 210) 100%);
+}
+
+.text::first-letter {
+    font-size: 36px;
+}
+
+fieldset:hover {
+    border: 2px solid #001249
+}

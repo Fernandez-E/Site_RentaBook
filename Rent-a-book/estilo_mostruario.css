@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+.mostruario {
+    width: 94%;
+    height: 315px;
+    border: solid #ffd31f 3px;
+    margin: 15px auto;
+    text-align: center;
+    background: rgb(255, 255, 255);
+    background: linear-gradient(180deg, rgb(255, 255, 255) 0%, rgb(253, 255, 113) 100%);
+    transition: all 0.8s;
+}
+
+.mostruario:hover {
+    border: solid 3px #001249;
+}
+
+.mostruario>legend {
+    text-align: left;
+    font-size: 24px;
+    font-family: 'Righteous', cursive;
+    color: #001249;
+    cursor: default;
+    padding: 0 15px;
+    margin-left: 30px;
+}
+
+.exemplares {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.titulo h1 {
+    margin: 15px 0px 5px 15px;
+    font-size: 20px;
+    text-align: left;
+    font-family: 'Righteous', cursive;
+    color: #001249;
+}
+
+.books {
+    width: 145px;
+    height: 210px;
+    border: solid #001249 2px;
+    margin: 10px 10px 0px 10px;
+    transition: all 0.22s;
+}
+
+.line {
+    display: inline-block;
+    text-align: center;
+    vertical-align: top;
+}
+
+.line figcaption {
+    font-size: 16px;
+    font-family: 'Righteous', cursive;
+}
+
+.line a {
+    text-decoration: none;
+    color: #001249;
+}
+
+img.books:hover {
+    width: 160px;
+    height: 231px;
+    vertical-align: top;
+}
